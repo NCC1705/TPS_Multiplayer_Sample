@@ -152,7 +152,7 @@ void ATPSGameMode::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
 	CheckWaveState();
-	CheckAnyPlayerAlive();
+	CheckAnyPlayerAlive();	
 }
 
 void ATPSGameMode::SpawnBotTimerElapsed()
